@@ -1,0 +1,51 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+main {
+  margin-top: 40px;
+}
+
+table {
+  margin: auto;
+  border: 1px solid white;
+  border-collapse: collapse;
+  width: 80%;
+  border-radius: 10px;
+  overflow: hidden ;
+  /* box-shadow: 4px 4px 8px rgba(0, 0, 0, 2); */
+}
+
+caption {
+  background-color: #4e71ffef;
+  padding: 30px;
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+  border-radius: 10px 10px 0 0;
+}
+
+thead {
+  background-color: #8dd7ff60;
+}
+
+tbody tr{
+  transition: background-color 0.3s;
+}
+
+tbody tr:hover {
+  background-color: #8dd7ff60;
+}
+
+td, th {
+  border: 1px solid rgb(227, 226, 226);
+  text-align: center;
+  padding: 10px;
+}
+
+tfoot td {
+  background-color: #8de4cd68;
+  padding: 30px;
+  font-weight: 600;
+}
