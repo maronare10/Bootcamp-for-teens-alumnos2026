@@ -1,0 +1,78 @@
+body {
+  font-family: "Varela Round", sans-serif;
+  height: 100vh;
+  background-color: #eee8dc;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content:center;
+  align-items: center;
+}
+
+.tarjeta-contenedor {
+  position: relative;
+  border: 1px solid #ffffff;
+  width: 450px;
+  border-radius: 20px;
+}
+
+.foto-usuario img {
+  border-radius: 50%;
+  width: 80px;
+  border: 6px solid white;
+}
+
+.tarjeta {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+}
+
+.foto-usuario {
+  position:absolute;
+  left: 103px;
+  top: 20px
+
+}
+
+.tarjeta-contenido {
+  padding: 60px 40px 20px 40px;
+}
+
+.tarjeta-contenido .ocupacion {
+  font-size: 11px;
+  font-weight: 700;
+  color: rgba(33, 33, 200, 0.861);
+  text-align: right;
+}
+
+.tarjeta-contenido .nombre-completo {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.descripcion {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.redes-sociales nav {
+  width: 100%;
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tarjeta-foto {
+  background-image: url(assets/programming-side.jpg);
+  background-size: cover;
+  width:140px;
+  height: 300px;
+  border-radius: 20px 0 0 20px;
+}
+
+
+
+
+
+
+
